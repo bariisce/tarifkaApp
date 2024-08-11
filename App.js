@@ -17,6 +17,7 @@ function App() {
             title: "Categories",
             headerTitleStyle: { color: "#FFA500" },
             headerStyle: { backgroundColor: "white" },
+            headerTitleAlign: "center"
           }}
         />
         <Stack.Screen
@@ -26,6 +27,7 @@ function App() {
             title: "Meals",
             headerStyle: { backgroundColor: "white" },
             headerTintColor: "#FFA500",
+            headerTitleAlign: "center"
           }}
         />
         <Stack.Screen
@@ -36,6 +38,7 @@ function App() {
             headerTitleStyle: { color: "#FFA500" },
             headerStyle: { backgroundColor: "white" },
             headerTintColor: "#FFA500",
+            headerTitleAlign: "center"
           }}
         />
       </Stack.Navigator>
